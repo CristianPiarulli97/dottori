@@ -25,7 +25,7 @@ import it.prova.dottori_be.web.exception.IdNotNullForInsertException;
 @RestController
 @RequestMapping("/api/dottore")
 public class DottoreController {
-/*
+
 	@Autowired
 	private DottoreService service;
 	
@@ -69,5 +69,5 @@ public class DottoreController {
 		Dottore dottoreAggiornato = service.aggiorna(dottoreInput.buildModel());
 		return DottoreDTO.buildDottoreDTOFromModel(dottoreAggiornato);
 	} 
-	*/
+	
 }

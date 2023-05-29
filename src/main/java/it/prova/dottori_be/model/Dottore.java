@@ -37,49 +37,7 @@ public class Dottore {
 	private Boolean inVisita;
 	@Column(name = "inservizio")
 	private Boolean inServizio;
-	public Long getId() {
-		return id;
-	}
-	public void setId(Long id) {
-		this.id = id;
-	}
-	public String getNome() {
-		return nome;
-	}
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	public String getCognome() {
-		return cognome;
-	}
-	public void setCognome(String cognome) {
-		this.cognome = cognome;
-	}
-	public String getCodiceDottore() {
-		return codiceDottore;
-	}
-	public void setCodiceDottore(String codiceDottore) {
-		this.codiceDottore = codiceDottore;
-	}
-	public String getCodFiscalePazienteAttualmenteInVisita() {
-		return codFiscalePazienteAttualmenteInVisita;
-	}
-	public void setCodFiscalePazienteAttualmenteInVisita(String codFiscalePazienteAttualmenteInVisita) {
-		this.codFiscalePazienteAttualmenteInVisita = codFiscalePazienteAttualmenteInVisita;
-	}
-	public Boolean getInVisita() {
-		return inVisita;
-	}
-	public void setInVisita(Boolean inVisita) {
-		this.inVisita = inVisita;
-	}
-	public Boolean getInServizio() {
-		return inServizio;
-	}
-	public void setInServizio(Boolean inServizio) {
-		this.inServizio = inServizio;
-	}
-	
+
 	
 	
 }
